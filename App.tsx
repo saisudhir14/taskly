@@ -4,7 +4,9 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Pressable} from "reac
 export default function App() {
   return (
     <View style={styles.container}>
-    <Button title=" Press me"/>
+      <Pressable onPress={() => console.log("Button Pressable works!")}>
+      <Text>Delete</Text>
+    </Pressable>
       <View style = {styles.itemContainer}>
       <Text style = {styles.itemText}>Coffee</Text>
       </View>
