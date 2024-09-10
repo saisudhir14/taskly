@@ -1,12 +1,14 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Button, TouchableOpacity, Pressable} from "react-native";
 
+
+// Check properties for pressable!
 export default function App() {
   return (
     <View style={styles.container}>
-      <Pressable onPress={() => console.log("Button Pressable works!")}>
+      <TouchableOpacity onPress={() => console.log("Button Pressable works!")}>
       <Text>Delete</Text>
-    </Pressable>
+    </TouchableOpacity> 
       <View style = {styles.itemContainer}>
       <Text style = {styles.itemText}>Coffee</Text>
       </View>
