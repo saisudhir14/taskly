@@ -1,9 +1,10 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, } from "react-native";
+import { StyleSheet, Text, View, Button, TouchableOpacity, Pressable} from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
+    <Button title=" Press me"/>
       <View style = {styles.itemContainer}>
       <Text style = {styles.itemText}>Coffee</Text>
       </View>
