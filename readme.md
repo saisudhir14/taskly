@@ -13,3 +13,5 @@ metro bundler
 to autofix linting
 > yarn lint --fix
 
+to check pixel ratio
+> PixelRatio.get()  
